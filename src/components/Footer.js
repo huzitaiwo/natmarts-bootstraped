@@ -45,7 +45,8 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="col-md-3">
-                <h6 className="h6">Our Location</h6>
+              <h6 className="h6">Our Location</h6>
+              <img src={map} className="img-fliud" alt="map" />
             </div>
         </div>
       </div>
