@@ -12,6 +12,7 @@ export default function Footer() {
             <div className="col-md-4">
                 <div className="address">
                   <img src={locationIcon} alt="location" />
+                  <p>No: 5A/7, Suresh Nagar, Velachery Main Road, Selaiyur, Chennai-600 073,Tamil Nadu, India.</p>
                 </div>
             </div>
         </div>
