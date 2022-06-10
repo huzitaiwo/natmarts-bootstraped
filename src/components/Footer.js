@@ -10,9 +10,13 @@ export default function Footer() {
         <h3 className="h3 text-uppercase">Import and Export</h3>
         <div className="row">
             <div className="col-md-4">
-                <div className="address">
+                <div className="">
                   <img src={locationIcon} alt="location" />
                   <p>No: 5A/7, Suresh Nagar, Velachery Main Road, Selaiyur, Chennai-600 073,Tamil Nadu, India.</p>
+                </div>
+                <div className="">
+                  <img src={mailIcon} alt="mail" />
+                  <p>Import.Export@mail.com</p>
                 </div>
             </div>
         </div>
