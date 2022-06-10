@@ -3,18 +3,19 @@
 // colors
 $primary: #e53935;
 $danger: #b42f2c;
-$success: #1377C5;
-$info: #F8F8F8;
-$dark: #3C3C3C;
+$success: #1377c5;
+$info: #f8f8f8;
+$dark: #3c3c3c;
 
 //position
 $position-values: (
   0: 0,
   10: 10%,
+  15: 15%,
   20: 20%,
   30: 30%,
   50: 50%,
-  100: 100%
+  100: 100%,
 );
 
 // import bootstrap
