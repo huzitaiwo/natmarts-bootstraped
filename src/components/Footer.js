@@ -19,6 +19,15 @@ export default function Footer() {
                   <p>Import.Export@mail.com</p>
                 </div>
             </div>
+            <div className="col-md-4">
+                <div className="">
+                  <img src={callIcon} alt="call" />
+                  <div className="">
+                    <p>+91 9969922348</p>
+                    <p>+91 9969922348</p>
+                  </div>
+                </div>
+            </div>
         </div>
       </div>
     </div>
