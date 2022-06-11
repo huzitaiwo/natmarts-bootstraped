@@ -15,7 +15,7 @@ export default function Footer() {
   return (
     <div className="bg-primary text-white py-5">
       <div className="container">
-        <div className="row justify-content-between">
+        <div className="row justify-content-between align-items-center">
             <div className="col-md-5">
                 <h3 className="h3 text-uppercase mb-4">Import and Export</h3>
                 <div className="d-flex align-items-start mb-3">
@@ -27,7 +27,7 @@ export default function Footer() {
                   <p>Import.Export@mail.com</p>
                 </div>
             </div>
-            <div className="col-md-3 justify-content-end">
+            <div className="col-md-3">
                 <div className="d-flex align-items-start">
                   <img src={callIcon} className="me-4" alt="call" />
                   <ul className="list-unstyled">
