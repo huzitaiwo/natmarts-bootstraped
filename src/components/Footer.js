@@ -9,12 +9,13 @@ import whatsappIcon from '../assets/whatsapp_icon.svg'
 import instagramIcon from '../assets/insta_icon.svg'
 import twitterIcon from '../assets/twitter_icon.svg'
 import linkedinIcon from '../assets/linkedin_icon.svg'
+import copyright from '../assets/copyright_icon.svg'
 import map from '../assets/map.png'
 
 export default function Footer() {
   return (
-    <div className="bg-primary text-white py-5">
-      <div className="container">
+    <div className="bg-primary text-white">
+      <div className="container py-5">
         <div className="row justify-content-between align-items-center">
             <div className="col-md-5">
                 <h3 className="h3 text-uppercase mb-4">Import and Export</h3>
@@ -49,6 +50,10 @@ export default function Footer() {
               <img src={map} className="img-thumbnail img-fluid" alt="map" />
             </div>
         </div>
+      </div>
+      <div className="bg-danger mt-auto d-flex justify-content-center pt-3">
+        <img src={copyright} alt="copyright" />
+        <p>Copyright  2022</p>
       </div>
     </div>
   )
