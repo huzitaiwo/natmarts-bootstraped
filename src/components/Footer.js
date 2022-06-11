@@ -13,11 +13,11 @@ import map from '../assets/map.png'
 
 export default function Footer() {
   return (
-    <div className="bg-primary text-white py-2">
+    <div className="bg-primary text-white py-5">
       <div className="container">
-        <h3 className="h3 text-uppercase mb-4">Import and Export</h3>
         <div className="row justify-content-between">
             <div className="col-md-5">
+                <h3 className="h3 text-uppercase mb-4">Import and Export</h3>
                 <div className="d-flex align-items-start mb-3">
                   <img src={locationIcon} className="me-4" alt="location" />
                   <p>No: 5A/7, Suresh Nagar, Velachery Main Road, Selaiyur, Chennai-600 073,Tamil Nadu, India.</p>
@@ -27,7 +27,7 @@ export default function Footer() {
                   <p>Import.Export@mail.com</p>
                 </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 justify-content-end">
                 <div className="d-flex align-items-start">
                   <img src={callIcon} className="me-4" alt="call" />
                   <ul className="list-unstyled">
@@ -45,7 +45,7 @@ export default function Footer() {
                 </ul>
             </div>
             <div className="col-md-4">
-              <h6 className="h6">Our Location</h6>
+              <h6 className="h6 mb-4">Our Location</h6>
               <img src={map} className="img-thumbnail img-fluid" alt="map" />
             </div>
         </div>
