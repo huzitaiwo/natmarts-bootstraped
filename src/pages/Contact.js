@@ -5,7 +5,7 @@ import BannerSM from '../components/BannerSM'
 export default function Contact() {
   return (
     <div>
-      <BannerSM src={banner}/>
+      <BannerSM src={banner} content="Contact Us" />
     </div>
   )
 }
