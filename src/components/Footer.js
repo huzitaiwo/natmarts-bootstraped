@@ -17,9 +17,9 @@ export default function Footer() {
     <div className="bg-primary text-white">
       <div className="container py-5">
         <div className="row justify-content-between align-items-center">
-            <div className="col-md-5">
+            <div className="col-md-5 mb-4 mb-md-0">
                 <h3 className="h3 text-uppercase mb-4">Import and Export</h3>
-                <div className="d-flex align-items-start mb-3">
+                <div className="d-flex align-items-start mb-md-3">
                   <img src={locationIcon} className="me-4" alt="location" />
                   <p>No: 5A/7, Suresh Nagar, Velachery Main Road, Selaiyur, Chennai-600 073,Tamil Nadu, India.</p>
                 </div>
@@ -28,7 +28,7 @@ export default function Footer() {
                   <p>Import.Export@mail.com</p>
                 </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 mb-4 mb-md-0">
                 <div className="d-flex align-items-start">
                   <img src={callIcon} className="me-4" alt="call" />
                   <ul className="list-unstyled">
@@ -45,15 +45,17 @@ export default function Footer() {
                   <li className='me-3'><Link to='/'><img src={linkedinIcon} alt="linkedin" /></Link></li>
                 </ul>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-4 mb-md-0">
               <h6 className="h6 mb-4">Our Location</h6>
               <img src={map} className="img-thumbnail img-fluid" alt="map" />
             </div>
         </div>
       </div>
-      <div className="bg-danger mt-auto d-flex justify-content-center pt-3">
-        <img src={copyright} alt="copyright" />
-        <p>Copyright  2022</p>
+      <div className="bg-danger mt-auto d-flex justify-content-center align-items-center">
+        <div className="">
+          <img src={copyright} className="me-4" alt="copyright" />
+        </div>
+        <p className='pt-3'>Copyright  2022</p>
       </div>
     </div>
   )
