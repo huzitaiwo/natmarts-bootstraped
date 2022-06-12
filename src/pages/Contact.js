@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <h3 className="h3 text-uppercase">Contact us</h3>
+            <h3 className="h3 text-uppercase fw-bolder text-primary">Contact us</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
           </div>
         </div>
