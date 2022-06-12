@@ -38,11 +38,11 @@ export default function Footer() {
                 </div>
                 <h6 className='h6 my-4'>Follow us</h6>
                 <ul className="list-unstyled d-flex">
-                  <li className='me-3'><Link to='/'><img src={facebookIcon} alt="facebook" /></Link></li>
-                  <li className='me-3'><Link to='/'><img src={whatsappIcon} alt="whatsapp" /></Link></li>
-                  <li className='me-3'><Link to='/'><img src={instagramIcon} alt="instagram" /></Link></li>
-                  <li className='me-3'><Link to='/'><img src={twitterIcon} alt="twitter" /></Link></li>
-                  <li className='me-3'><Link to='/'><img src={linkedinIcon} alt="linkedin" /></Link></li>
+                  <li className='me-3 bg-danger p-1 rounded'><Link to='/'><img src={facebookIcon} alt="facebook" /></Link></li>
+                  <li className='me-3 bg-danger p-1 rounded'><Link to='/'><img src={whatsappIcon} alt="whatsapp" /></Link></li>
+                  <li className='me-3 bg-danger p-1 rounded'><Link to='/'><img src={instagramIcon} alt="instagram" /></Link></li>
+                  <li className='me-3 bg-danger p-1 rounded'><Link to='/'><img src={twitterIcon} alt="twitter" /></Link></li>
+                  <li className='me-3 bg-danger p-1 rounded'><Link to='/'><img src={linkedinIcon} alt="linkedin" /></Link></li>
                 </ul>
             </div>
             <div className="col-md-4 mb-4 mb-md-0">
