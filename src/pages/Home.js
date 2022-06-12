@@ -13,8 +13,10 @@ export default function Home() {
         <h3 className="h3 text-primary">About Us</h3>
       </div>
       <About />
-      <div className="text-center pt-5">
-        <h3 className="h3 text-primary">Countries we Serve</h3>
+      <div className="bg-info">
+        <div className="text-center pt-5">
+          <h3 className="h3 text-primary m-0">Countries we Serve</h3>
+        </div>
       </div>
       <Country />
       <div className="text-center pt-5">
@@ -23,7 +25,7 @@ export default function Home() {
       <Shop />
       <div className="bg-info">
         <div className="text-center pt-5">
-          <h3 className="h3 text-primary">Clients Reviews</h3>
+          <h3 className="h3 text-primary m-0">Clients Reviews</h3>
         </div>
       </div>
       <Review />

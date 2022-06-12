@@ -13,16 +13,18 @@ import Card from './Card'
 
 export default function Review() {
   return (
-    <div className="container bg-info py-5">
-      <div className='row'>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <Card src={person_1} rate={rating_1} name="Ashley" time="10 min ago" />
-        </div>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <Card src={person_2} rate={rating_2} name="Ashley" time="10 min ago" />
-        </div>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <Card src={person_3} rate={rating_3} name="Ashley" time="1 month ago" />
+    <div className="bg-info py-5">
+      <div className="container">
+        <div className='row'>
+          <div className="col-md-4 mb-4 mb-md-0">
+            <Card src={person_1} rate={rating_1} name="Ashley" time="10 min ago" />
+          </div>
+          <div className="col-md-4 mb-4 mb-md-0">
+            <Card src={person_2} rate={rating_2} name="Ashley" time="10 min ago" />
+          </div>
+          <div className="col-md-4 mb-4 mb-md-0">
+            <Card src={person_3} rate={rating_3} name="Ashley" time="1 month ago" />
+          </div>
         </div>
       </div>
     </div>
