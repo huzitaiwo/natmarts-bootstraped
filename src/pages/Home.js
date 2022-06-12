@@ -10,7 +10,7 @@ export default function Home() {
     <div className='home'>
       <Banner />
       <div className="text-center pt-5">
-        <h3 className="h3 text-primary">About US</h3>
+        <h3 className="h3 text-primary fw-bolder">About US</h3>
       </div>
       <About />
       <div className="bg-info">
