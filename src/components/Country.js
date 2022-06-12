@@ -7,22 +7,24 @@ import country_5 from '../assets/country5.png'
 
 export default function Country() {
   return (
-    <div className='container py-5'>
-      <div className="row justify-content-between">
-        <div className="col-2">
-          <img className='img-fluid' src={country_1} alt="" />
-        </div>
-        <div className="col-2">
-          <img className='img-fluid' src={country_2} alt="" />
-        </div>
-        <div className="col-2">
-          <img className='img-fluid' src={country_3} alt="" />
-        </div>
-        <div className="col-2">
-          <img className='img-fluid' src={country_4} alt="" />
-        </div>
-        <div className="col-2">
-          <img className='img-fluid' src={country_5} alt="" />
+    <div className="bg-info py-5">
+      <div className='container'>
+        <div className="row justify-content-between">
+          <div className="col-2">
+            <img className='img-fluid' src={country_1} alt="" />
+          </div>
+          <div className="col-2">
+            <img className='img-fluid' src={country_2} alt="" />
+          </div>
+          <div className="col-2">
+            <img className='img-fluid' src={country_3} alt="" />
+          </div>
+          <div className="col-2">
+            <img className='img-fluid' src={country_4} alt="" />
+          </div>
+          <div className="col-2">
+            <img className='img-fluid' src={country_5} alt="" />
+          </div>
         </div>
       </div>
     </div>
