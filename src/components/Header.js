@@ -11,7 +11,7 @@ import linkedinIcon from '../assets/linkedin.svg'
 export default function Header() {
   return (
     <div className='header'>
-        <div className="container py-2 d-md-flex justify-content-between align-items-center">
+        <div className="container py-2 d-lg-flex justify-content-between align-items-center">
           <ul className='address d-md-flex align-items-center list-unstyled'>
               <li className='d-flex pb-1 pb-md-0 pe-sm-3'>
                 <img src={locationIcon} alt="location" />
