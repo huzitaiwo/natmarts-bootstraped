@@ -5,6 +5,9 @@ import Country from '../components/Country'
 import Review from '../components/Review'
 import Shop from '../components/Shop'
 
+//images
+import arrowRight from '../assets/arrowright_icon.svg'
+
 export default function Home() {
   return (
     <div className='home'>
@@ -35,7 +38,10 @@ export default function Home() {
             <h2 className="h2">Lorem ipsum dolor sit amet!</h2>
             <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum.</p>
           </div>
-          <button className="btn btn-primary btn-lg text-white">Request a Quote</button>
+          <button className="btn btn-primary btn-lg text-white d-flex align-items-center">
+            <span>Request a Quote</span>
+            <img src={arrowRight} className="ms-3" alt="arrow right" />
+          </button>
         </div>
       </div>
     </div>
