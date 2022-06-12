@@ -46,7 +46,7 @@ export default function About() {
         </div>
       </div>
       <div className="container pt-5">
-        <h3 className="h3 fw-bolder text-primary text-uppercase">Our Client</h3>
+        <h3 className="h3 fw-bolder text-primary text-uppercase text-underline"><u>Our Client</u></h3>
       </div>
       <Review />
       <div className="container pt-5">
