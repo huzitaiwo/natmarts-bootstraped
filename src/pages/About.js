@@ -50,7 +50,7 @@ export default function About() {
       </div>
       <Review />
       <div className="container pt-5">
-        <h3 className="h3 text-primary text-uppercase">Countries we Serve</h3>
+        <h3 className="h3 fw-bolder text-primary">Countries we serve</h3>
       </div>
       <Country />
     </div>
