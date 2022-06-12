@@ -25,7 +25,7 @@ export default function Navbar() {
               <NavLink className="nav-link" to="/contact">Contact us</NavLink>
             </li>
             <li className="nav-item">
-              <button className="nav-link btn btn-danger px-4">Shop</button>
+              <button className="nav-link active btn btn-danger px-4">Shop</button>
             </li>
           </ul>
         </div>
