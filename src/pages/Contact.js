@@ -16,6 +16,18 @@ export default function Contact() {
           <div className="col-md-5">
             <h3 className="h3 text-uppercase fw-bolder text-primary">Contact us</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+            <div className="d-flex align-items-start mb-md-3">
+              <img src={locationIcon} className="me-4" alt="location" />
+              <p>No: 5A/7, Suresh Nagar, Velachery Main Road, Selaiyur, Chennai-600 073,Tamil Nadu, India.</p>
+            </div>
+            <div className="d-flex align-items-start">
+              <img src={mailIcon} className="me-4" alt="mail" />
+              <p>Import.Export@mail.com</p>
+            </div>
+            <div className="d-flex align-items-start">
+              <img src={callIcon} className="me-4" alt="mail" />
+              <p>+91 9969922348</p>
+            </div>
           </div>
         </div>
       </div>
