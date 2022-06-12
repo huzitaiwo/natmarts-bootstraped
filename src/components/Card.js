@@ -11,7 +11,7 @@ export default function Card({ src, rate, name, time }) {
         </h5>
         <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum.</p>
         <p className="h5">{name}</p>
-        <p className="text-muted">{time}</p>
+        <small className="text-muted text-sm">{time}</small>
       </div>
     </div>
   )
