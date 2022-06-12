@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary d-flex align-items-center">
       <div className="container">
-        <NavLink className="navbar-brand" exact to="/">
+        <NavLink className="navbar-brand" to="/">
           <div className="logo h2 text-uppercase text-white">
             Import <img src={logo} alt="logo" /> Export
           </div>
