@@ -11,8 +11,8 @@ export default function Contact() {
   return (
     <div>
       <BannerSM src={banner} content="Contact Us" />
-      <div className="container">
-        <div className="row">
+      <div className="container py-5">
+        <div className="row justify-content-between">
           <div className="col-md-5">
             <h3 className="h3 text-uppercase fw-bolder text-primary">Contact us</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
@@ -28,6 +28,11 @@ export default function Contact() {
               <img src={callIcon} className="me-4" alt="mail" />
               <p>+91 9969922348</p>
             </div>
+          </div>
+          <div className="col-md-5">
+            <h3 className="h3 text-uppercase fw-bolder text-primary">Send us a messsage</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+            <button className="btn btn-primary btn-lg text-uppercase text-white px-5">Submit</button>
           </div>
         </div>
       </div>
