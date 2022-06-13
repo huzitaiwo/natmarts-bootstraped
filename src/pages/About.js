@@ -10,6 +10,9 @@ export default function About() {
     <div>
       <BannerSM src={banner} content="About Us" />
       <Aboutus />
+      <div className="bg-info">
+        <h3 className="h3 text-uppercase text-primary">Why Choose Us</h3>
+      </div>
     </div>
   )
 }
