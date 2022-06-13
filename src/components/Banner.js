@@ -2,8 +2,8 @@ import banner from '../assets/hero_image.png'
 
 export default function Banner() {
   return (
-    <div className='position-relative'>
-      <img className='img-fluid' src={banner} alt="banner" />
+    <div className='' style={{ backgroundImage: `url(${banner})`}}>
+      {/* <img className='img-fluid' src={banner} alt="banner" /> */}
       <div className="container position-absolute top-15 text-white mt-2 mt-lg-5 ms-lg-5">
         <h3 className='m-0'>Making Transport</h3>
         <h1 className='m-0'>FAST & SAFE</h1>
