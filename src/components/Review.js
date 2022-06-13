@@ -13,7 +13,7 @@ import Card from './Card'
 
 export default function Review() {
   return (
-    <div className="bg-info py-5">
+    <div className="py-5">
       <div className="container">
         <div className='row'>
           <div className="col-md-4 mb-4 mb-md-0">
