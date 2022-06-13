@@ -27,8 +27,8 @@ export default function Home() {
         <div className="text-center pt-5">
           <h3 className="h3 text-primary m-0">Clients Reviews</h3>
         </div>
+        <Review />
       </div>
-      <Review />
       <div className="bg-dark text-white py-5">
         <div className="container d-md-flex justify-content-between align-items-center">
           <div>
