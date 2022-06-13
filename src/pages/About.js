@@ -7,6 +7,7 @@ import cupIcon from '../assets/reliable.svg'
 //components
 import BannerSM from '../components/BannerSM'
 import Aboutus from '../components/About'
+import Review from '../components/Review'
 
 export default function About() {
   return (
@@ -41,6 +42,7 @@ export default function About() {
               </div>
             </div>
           </div>
+          <Review />
         </div>
       </div>
     </div>
