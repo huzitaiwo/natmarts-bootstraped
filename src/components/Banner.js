@@ -2,9 +2,9 @@ import banner from '../assets/hero_image.png'
 
 export default function Banner() {
   return (
-    <div className='' style={{ backgroundImage: `url(${banner})`}}>
+    <div className='text-white' style={{ backgroundImage: `url(${banner})`, height:"600px"}}>
       {/* <img className='img-fluid' src={banner} alt="banner" /> */}
-      <div className="container position-absolute top-15 text-white mt-2 mt-lg-5 ms-lg-5">
+      <div className="container">
         <h3 className='m-0'>Making Transport</h3>
         <h1 className='m-0'>FAST & SAFE</h1>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean nascetur ridiculus mus dolor sit amet, consectetu.</p>
