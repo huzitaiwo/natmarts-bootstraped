@@ -8,6 +8,7 @@ import cupIcon from '../assets/reliable.svg'
 import BannerSM from '../components/BannerSM'
 import Aboutus from '../components/About'
 import Review from '../components/Review'
+import Country from '../components/Country'
 
 export default function About() {
   return (
@@ -48,6 +49,10 @@ export default function About() {
         <h3 className="h3 text-primary text-uppercase">Our Client</h3>
       </div>
       <Review />
+      <div className="container pt-5">
+        <h3 className="h3 text-primary text-uppercase">Countries we Serve</h3>
+      </div>
+      <Country />
     </div>
   )
 }
