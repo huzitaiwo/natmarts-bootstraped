@@ -22,7 +22,16 @@ export default function About() {
           <div className="col-md-5">
             <div className="row">
               <div className="col-md-6">
-
+                <img src={deliveryIcon} alt="delivery" />
+              </div>
+              <div className="col-md-6">
+                <img src={deliveryIcon} alt="delivery" />
+              </div>
+              <div className="col-md-6">
+                <img src={deliveryIcon} alt="delivery" />
+              </div>
+              <div className="col-md-6">
+                <img src={deliveryIcon} alt="delivery" />
               </div>
             </div>
           </div>
