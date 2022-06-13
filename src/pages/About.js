@@ -42,12 +42,12 @@ export default function About() {
               </div>
             </div>
           </div>
-            <div className="pt-5">
-            <h3 className="h3 text-primary m-0">Our Clients</h3>
-          </div>
-          <Review />
         </div>
       </div>
+      <div className="container pt-5">
+        <h3 className="h3 text-primary text-uppercase">Our Client</h3>
+      </div>
+      <Review />
     </div>
   )
 }
