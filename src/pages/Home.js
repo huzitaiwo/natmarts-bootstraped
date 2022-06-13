@@ -17,8 +17,8 @@ export default function Home() {
         <div className="text-center pt-5">
           <h3 className="h3 text-primary m-0">Countries we Serve</h3>
         </div>
+        <Country />
       </div>
-      <Country />
       <div className="text-center pt-5">
         <h3 className="h3 text-primary">Explore shop</h3>
       </div>

@@ -7,7 +7,7 @@ import country_5 from '../assets/country5.png'
 
 export default function Country() {
   return (
-    <div className="bg-info py-5">
+    <div className="py-5">
       <div className='container'>
         <div className="row justify-content-between">
           <div className="col-2">
