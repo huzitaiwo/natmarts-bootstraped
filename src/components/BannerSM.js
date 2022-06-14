@@ -1,9 +1,12 @@
 
 export default function BannerSM({ src, content }) {
   return (
-    <div className="position-relative">
-      <img className='img-fluid' src={src} alt="banner" />
-      <div className="container position-absolute top-50 start-0 text-white">
+    <div className='text-white py-5' style={{
+      backgroundImage: `url(${src})`,
+      backgroundPosition: "center" 
+      // height:"200px"
+      }}>
+      <div className="container">
         <h3 className='m-0'>{content}</h3>
       </div>
     </div>
