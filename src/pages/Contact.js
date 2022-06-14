@@ -32,12 +32,18 @@ export default function Contact() {
           <div className="col-md-5">
             <h3 className="h4 text-uppercase fw-bolder text-primary mb-3">Send us a messsage</h3>
             <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
-            <form className='row g-3 mb-3'>
-              <div class="col-auto">
+            <form className='row g-4 mb-3'>
+              <div class="col-md-6">
                 <input type="text" class="form-control" placeholder="Name" />
               </div>
-              <div class="col-auto">
+              <div class="col-md-6">
                 <input type="email" class="form-control" placeholder="Email" />
+              </div>
+              <div class="col-md-6">
+                <input type="tel" class="form-control" placeholder="Phone" />
+              </div>
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Interest of Services" />
               </div>
             </form>
             <button className="btn btn-primary btn-lg text-uppercase text-white px-5">Submit</button>
