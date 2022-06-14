@@ -1,8 +1,8 @@
 //images
 import banner from '../assets/hero_image.png'
-import locationIcon from '../assets/location_icon.svg'
-import callIcon from '../assets/call_icon.svg'
-import mailIcon from '../assets/mail_icon.svg'
+import locationIcon from '../assets/location_icon-red.svg'
+import callIcon from '../assets/call_icon-red.svg'
+import mailIcon from '../assets/mail_icon-red.svg'
 
 //components
 import BannerSM from '../components/BannerSM'
