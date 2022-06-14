@@ -46,7 +46,7 @@ export default function Contact() {
                 <input type="text" class="form-control" placeholder="Interest of Services" />
               </div>
               <div class="col-12">
-                <textarea cols="30" rows="10" className="form-control" placeholder="Message"></textarea>
+                <textarea cols="20" rows="5" className="form-control" placeholder="Message"></textarea>
               </div>
             </form>
             <button className="btn btn-primary btn-lg text-uppercase text-white px-5">Submit</button>
