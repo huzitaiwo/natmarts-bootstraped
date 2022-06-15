@@ -64,10 +64,12 @@ export default function About() {
         <h3 className="h3 fw-bolder text-primary text-uppercase"><u>Our Client</u></h3>
       </div>
       <Review />
-      <div className="container pt-5">
-        <h3 className="h3 fw-bolder text-primary">Countries we serve</h3>
+      <div className="bg-info">
+        <div className="container pt-5">
+          <h3 className="h3 fw-bolder text-primary">Countries we serve</h3>
+        </div>
+        <Country />
       </div>
-      <Country />
     </div>
   )
 }
