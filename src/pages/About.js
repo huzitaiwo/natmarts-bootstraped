@@ -46,15 +46,17 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className='container py-5 text-center text-white' style={{
+      <div className='py-5 text-center text-white' style={{
         backgroundImage: `url(${quoteBg})`,
         backgroundPosition: "center",
         height: "200px"
       }}>
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <h4 className="h4">WE ARE DEDICATED TO PROVIDE THE BEST SERVICES AT THE LOWEST POSSIBLE COST</h4>
-            <button className="btn btn-primary text-white px-4">Get Quote</button>
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+              <h4 className="h4">WE ARE DEDICATED TO PROVIDE THE BEST SERVICES AT THE LOWEST POSSIBLE COST</h4>
+              <button className="btn btn-primary text-white px-4">Get Quote</button>
+            </div>
           </div>
         </div>
       </div>
